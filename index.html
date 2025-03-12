@@ -12,7 +12,7 @@
     <div class="container">
         <!-- Icône du jeu -->
         <div class="game-icon">
-            <img src="icon.png" alt="Icône du jeu">
+            <img id="game-icon" src="icons/windows-icon.png" alt="Icône du jeu">
         </div>
 
         <!-- Nom du jeu -->
@@ -21,17 +21,27 @@
         <!-- Description -->
         <p class="description">⚔️ RPG sur la plateforme PC ⚔️</p>
 
-        <!-- Plateforme -->
-        <p class="platform">Plateforme : Windows</p>
+        <!-- Sélecteur de plateforme -->
+        <label for="platform-select">Choisir une plateforme :</label>
+        <select id="platform-select">
+            <option value="Windows">Windows</option>
+            <option value="Android">Android</option>
+            <option value="Linux">Linux</option>
+            <option value="Universal">Universal</option>
+        </select>
+
+        <!-- Affichage de la version -->
+        <p class="platform">Version : <span id="game-version">1.2.0</span></p>
 
         <!-- Bouton de téléchargement -->
-        <a href="LIEN_DU_JEU" class="download-btn">📜 Télécharger le jeu 📜</a>
+        <a id="download-btn" href="https://example.com/windows-download" class="download-btn">📜 Télécharger le jeu 📜</a>
     </div>
 
     <!-- Bannière de fin -->
     <footer>
-        <p>🏰 Rejoignez la guilde sur WhatsApp : <a https://chat.whatsapp.com/KI6rH9Bvk6bFegSMVCt7UE ici</a> 🏰</p>
+        <p>🏰 Rejoignez la guilde sur WhatsApp : <a href="LIEN_WHATSAPP">Cliquez ici</a> 🏰</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
