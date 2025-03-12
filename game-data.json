@@ -1,24 +1,36 @@
 {
   "Chronicles_Heroes": {
     "Windows": {
-      "icon": "icons/windows-icon.png",
-      "version": "1.0.0.bêta",
-      "download": "https://example.com/windows-download"
+      "icon": "https://example.com/windows-icon.png",
+      "version": "1.2.0",
+      "download": "https://example.com/windows-download",
+      "enabled": false,
+      "buttonIcon": "https://example.com/windows-download-icon.png",
+      "videoUrl": "https://www.youtube.com/embed/2t7E0qpWK34"
     },
     "Android": {
-      "icon": "icons/android-icon.png",
-      "version": "1.0.bêta",
-      "download": "https://example.com/android-download"
+      "icon": "https://example.com/android-icon.png",
+      "version": "1.1.5",
+      "download": "https://example.com/android-download",
+      "enabled": false,
+      "buttonIcon": "https://example.com/android-download-icon.png",
+      "videoUrl": "https://www.youtube.com/embed/abcdefghijk"
     },
     "Linux": {
-      "icon": "icons/linux-icon.png",
-      "version": "1.0.bêta",
-      "download": "https://example.com/linux-download"
+      "icon": "https://example.com/linux-icon.png",
+      "version": "1.0.8",
+      "download": "#",
+      "enabled": false,
+      "buttonIcon": "https://example.com/linux-download-icon.png",
+      "videoUrl": "https://www.youtube.com/embed/lmnopqrstuv"
     },
     "Universal": {
-      "icon": "icons/universal-icon.png",
-      "version": "1.0.bêta",
-      "download": "https://example.com/universal-download"
+      "icon": "https://example.com/universal-icon.png",
+      "version": "1.3.0",
+      "download": "https://example.com/universal-download",
+      "enabled": false,
+      "buttonIcon": "https://example.com/universal-download-icon.png",
+      "videoUrl": "https://www.youtube.com/embed/wxyz1234567"
     }
   }
 }
