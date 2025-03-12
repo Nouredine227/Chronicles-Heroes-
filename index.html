@@ -3,26 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chronicles Héros : Rising of the Hero</title>
+    <title>Chronicles Héros</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="container">
-        <!-- Icône du jeu -->
-        <div class="game-icon">
-            <img id="game-icon" src="icons/windows-icon.png" alt="Icône du jeu">
-        </div>
+        <img id="game-icon" class="game-icon" src="assets/logo.png" alt="Icône du jeu">
 
-        <!-- Nom du jeu -->
         <h1>Chronicles Héros : Rising of the Hero</h1>
 
-        <!-- Description -->
-        <p class="description">⚔️ RPG sur la plateforme PC ⚔️</p>
+        <p class="description">RPG sur la plateforme PC</p>
 
-        <!-- Sélecteur de plateforme -->
-        <label for="platform-select">Choisir une plateforme :</label>
+        <label for="platform-select">Sélectionnez votre plateforme :</label>
         <select id="platform-select">
             <option value="Windows">Windows</option>
             <option value="Android">Android</option>
@@ -30,18 +23,32 @@
             <option value="Universal">Universal</option>
         </select>
 
-        <!-- Affichage de la version -->
-        <p class="platform">Version : <span id="game-version">1.2.0</span></p>
+        <p class="version">Version : <span id="game-version">1.2.0</span></p>
 
-        <!-- Bouton de téléchargement -->
-        <a id="download-btn" href="https://example.com/windows-download" class="download-btn">📜 Télécharger le jeu 📜</a>
+        <!-- Bouton de téléchargement avec icône -->
+        <a id="download-btn" href="#" class="download-btn" target="_blank">
+            <img id="download-icon" src="" alt="Télécharger">
+        </a>
+
+        <!-- Message "Bientôt disponible" -->
+        <p id="coming-soon" class="coming-soon">Bientôt disponible</p>
+
+        <!-- Fenêtre vidéo YouTube -->
+        <div class="video-container">
+            <iframe id="game-video" width="560" height="315" 
+                src="https://www.youtube.com/embed/2t7E0qpWK34" 
+                frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+
+        <footer>
+            <p>Rejoignez notre communauté : 
+                <a href="https://chat.whatsapp.com/XXXXX" target="_blank">Groupe WhatsApp</a>
+            </p>
+        </footer>
     </div>
 
-    <!-- Bannière de fin -->
-    <footer>
-        <p>🏰 Rejoignez la guilde sur WhatsApp : <a href="https://chat.whatsapp.com/KI6rH9Bvk6bFegSMVCt7UE">Cliquez ici</a> 🏰</p>
-    </footer>
-
     <script src="script.js"></script>
+
 </body>
 </html>
