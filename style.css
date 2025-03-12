@@ -84,3 +84,14 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+select {
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid #5e3c1e;
+    background-color: #a88e6f;
+    color: #4a2c2a;
+    font-family: 'Uncial Antiqua', cursive;
+    border-radius: 5px;
+    margin-top: 10px;
+}
