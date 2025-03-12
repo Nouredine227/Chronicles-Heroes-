@@ -1,97 +1,89 @@
 body {
-    font-family: 'Uncial Antiqua', cursive;
-    text-align: center;
-    background: url('parchment-bg.jpg') no-repeat center center fixed;
+    font-family: 'Georgia', serif;
+    background: url('assets/background.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #4a2c2a;
-    margin: 0;
-    padding: 0;
+    text-align: center;
+    color: white;
 }
 
 .container {
+    width: 60%;
+    margin: auto;
     padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #FFD700;
 }
 
 .game-icon {
-    display: inline-block;
-    padding: 10px;
-    border: 10px solid #5e3c1e;
-    border-radius: 50%;
-    background: #a88e6f;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.game-icon img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid #FFD700;
 }
 
 h1 {
-    font-size: 32px;
-    color: #5e3c1e;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+    margin: 10px 0;
+    color: #FFD700;
 }
 
 .description {
-    font-size: 20px;
-    color: #3e2b1c;
-    font-weight: bold;
-    margin-top: 10px;
+    font-size: 18px;
 }
 
-.platform {
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.version {
     font-size: 18px;
     font-weight: bold;
-    color: #2e1b0f;
-    margin-bottom: 20px;
 }
 
 .download-btn {
     display: inline-block;
-    background: url('scroll-banner.png') no-repeat center center;
-    background-size: cover;
-    color: #ffffff;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    border: 2px solid #4a2c2a;
-    border-radius: 5px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
 }
 
-.download-btn:hover {
-    background: url('scroll-banner-hover.png') no-repeat center center;
-    background-size: cover;
+.download-btn img {
+    width: 120px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.download-btn img:hover {
+    transform: scale(1.1);
+}
+
+.coming-soon {
+    display: none;
+    font-size: 18px;
+    color: #d9534f;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.video-container {
+    margin-top: 20px;
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px;
-    background: rgba(46, 26, 16, 0.8);
-    color: #d4af37;
-    font-size: 18px;
+    background: #222;
+    border-top: 2px solid #FFD700;
 }
 
 footer a {
-    color: #d4af37;
+    color: #FFD700;
     text-decoration: none;
     font-weight: bold;
 }
 
 footer a:hover {
     text-decoration: underline;
-}
-
-select {
-    font-size: 18px;
-    padding: 5px;
-    border: 2px solid #5e3c1e;
-    background-color: #a88e6f;
-    color: #4a2c2a;
-    font-family: 'Uncial Antiqua', cursive;
-    border-radius: 5px;
-    margin-top: 10px;
 }
