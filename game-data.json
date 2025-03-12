@@ -1,0 +1,24 @@
+{
+  "Chronicles_Heroes": {
+    "Windows": {
+      "icon": "icons/windows-icon.png",
+      "version": "1.0.0.bêta",
+      "download": "https://example.com/windows-download"
+    },
+    "Android": {
+      "icon": "icons/android-icon.png",
+      "version": "1.0.bêta",
+      "download": "https://example.com/android-download"
+    },
+    "Linux": {
+      "icon": "icons/linux-icon.png",
+      "version": "1.0.bêta",
+      "download": "https://example.com/linux-download"
+    },
+    "Universal": {
+      "icon": "icons/universal-icon.png",
+      "version": "1.0.bêta",
+      "download": "https://example.com/universal-download"
+    }
+  }
+}
