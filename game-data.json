@@ -1,7 +1,7 @@
 {
   "Chronicles_Heroes": {
     "Windows": {
-      "icon": "icon.jpg",
+      "icon": "logo.jpg",
       "version": "1.2.0",
       "download": "https://example.com/windows-download",
       "enabled": false,
